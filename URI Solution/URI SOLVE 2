@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+
+    float R;
+
+    float n=3.14159,A;
+
+    scanf("%.2f",&R);
+
+     A=n*(R*R);
+
+    printf("A=%.4f",A);
+}
