@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+    int A,B,D,E;
+
+    double C,F,G;
+
+    scanf("%d\t %d\t %lf",&A,&B,&C);
+
+    scanf("%d\t %d\t %lf",&D,&E,&F);
+
+    G=B*C+E*F;
+
+    printf("VALOR A PAGAR: R$ %0.2lf\n",G);
+}
