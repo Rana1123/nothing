@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+    int A;
+
+    double B,C;
+
+    scanf("%d",&A);
+
+    scanf("%lf",&B);
+
+    C=A/B;
+
+    printf("%0.3lf km/l\n",C);
+}
