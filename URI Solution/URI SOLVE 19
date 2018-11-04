@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main()
+
+{
+    int n,a,b,c,d;
+
+    scanf("%d",&n);
+
+    a=n/(60*60);
+
+    d=n%(60*60);
+
+    b=d/60;
+
+    c=d%60;
+
+    printf("%d:%d:%d\n",a,b,c);
+}
