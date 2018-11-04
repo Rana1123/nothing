@@ -1,0 +1,41 @@
+#include<stdio.h>
+
+int main()
+{
+    int X,Y;
+    double Price;
+
+    scanf("%d",&X);
+
+    scanf("%d",&Y);
+
+    if(X==1)
+    {
+        Price=4*Y;
+        printf("Total: R$ %0.2lf\n",Price);
+    }
+
+    else if(X==2)
+    {
+        Price=4.50*Y;
+        printf("Total: R$ %0.2lf\n",Price);
+    }
+
+    else if(X==3)
+    {
+        Price=5*Y;
+        printf("Total: R$ %0.2lf\n",Price);
+    }
+
+    else if(X==4)
+    {
+        Price=2*Y;
+        printf("Total: R$ %0.2lf\n",Price);
+    }
+
+    else if(X==5)
+    {
+        Price=1.50*Y;
+        printf("Total: R$ %0.2lf\n",Price);
+    }
+}
